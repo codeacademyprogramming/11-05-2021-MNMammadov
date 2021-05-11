@@ -1,0 +1,17 @@
+.cursor-p {
+  cursor: pointer;
+}
+
+.card-img-top {
+  width: 2rem;
+}
+
+.lang-item {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-dark .navbar__right,
+.navbar-dark .lang-item {
+  color: #fff;
+}
