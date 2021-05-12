@@ -44,7 +44,7 @@ function initHeader(customers) {
     logoutBtn.addEventListener('click', function () {
         sessionStorage.removeItem('userData');
         deleteCookie('token');
-        window.location.pathname = "/src/login.html";
+        window.location.pathname = "./src/login.html";
     });
 
     themeSwitcher.addEventListener('change', (event) => {
