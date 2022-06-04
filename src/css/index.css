@@ -1,0 +1,34 @@
+.cursor-p {
+  cursor: pointer;
+}
+
+.card-img-top {
+  width: 2rem;
+}
+
+.lang-item {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-dark .navbar__right,
+.navbar-dark .lang-item {
+  color: #fff;
+}
+
+#loading-animation {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  transition: .5s;
+  transition-delay: .5s;
+}
+
+#loading-animation.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
